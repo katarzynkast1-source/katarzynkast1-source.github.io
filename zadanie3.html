@@ -1,21 +1,21 @@
-<html>
-<head>
-<meta charset="utf-8">
+<html lang="pl">
+<meta charset="UTF-8">
 <title>Zadanie 3</title>
 <style>
 body {
 font-family: Arial, sans-serif;
-margin: 20px;
 line-height: 1.6;
+margin: 20px;
 }
 .grafika {
-float: left; /* wyrównanie do lewej */
-width: 50%; /* grafika zajmuje połowę strony */
-margin: 0 20px 20px 0;/* margines pomiędzy grafiką a tekstem */
+float: left;
+width: 50%;
+margin: 0 20px 20px 0; /* margines między grafiką a tekstem */
 }
 audio, video {
 display: block;
 margin: 20px 0;
+max-width: 100%;
 }
 .clear {
 clear: both;
@@ -23,28 +23,49 @@ clear: both;
 </style>
 </head>
 <body>
+
+
 <h1>Mój program</h1>
+
 
 
 <img src="za43.png" alt="Zrzut ekranu programu" class="grafika">
 
 
 <p>
-Tutaj napisałam program, który sprawdza czy podana liczba jest parzysta czy też nie.
+Tutaj napisałam program, który sprawdza czy podana liczba jest parzysta czy też nie. 
+Program wyczytuje od użytkownika liczbę całkowitą (cin>>n). Za pomocą instrukcji warunkowej if, 
+sprawdzane jest czy liczba jest podzielna przez 2. Jeżeli reszta z dzielenia jest równa 0,
+ to program wypisuje na ekranie napis "Parzysta", w przeciwnym wypakdu wypisuje
+"Nieparzysta".
 </p>
 
 
 <p>
 W komentarzu mamy podane moje imię i nazwisko.
 </p>
-<h2> Moje nagranie audio </h2>
-<audio controls>
-    <source src="Zad4audio.m4a" type="audio/mpeg">
-   
-</audio>
 
 
 <div class="clear"></div>
+
+
+<h2>Omówienie audio</h2>
+<audio controls>
+<source src="Zad4audio.m4a" type="audio/mpeg">
+</audio>
+
+
+<h2>Film instruktażowy</h2>
+<video controls>
+<source src="zad3nagraniee" type="video/mp4">
+
+</video>
+
+
+<h2>Materiały pomocnicze</h2>
+<p>
+<a href="https://www.kurshtml.edu.pl/html/video_audio_source,html5.html" target="_blank">Materiały pomocnicze</a>
+</p>
 
 
 </body>
